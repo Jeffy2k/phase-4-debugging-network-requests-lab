@@ -64,10 +64,16 @@ developing your own process.
 
   - How I debugged:
 
+    - Changed the constant name to singular from Toys to Toy.
+
 - Update the number of likes for a toy
 
   - How I debugged:
 
+    - Rendered a json response
+
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+
+    - Added the :destroy helper method to the allowed method list.
